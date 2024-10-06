@@ -28,6 +28,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://mysite-26bf.onrender.com',
+    # Agrega otros dominios si los necesitas
+]
+
 
 # Application definition
 
